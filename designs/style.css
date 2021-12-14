@@ -1,7 +1,7 @@
 :root {
-  --branding-color: #6c63ff;
-  --primary-color: #272142;
-  --secondary-color: #f9f7fe;
+  --branding-color: #ec5683;
+  --primary-color: white;
+  --secondary-color: #24191c;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -19,6 +19,7 @@ h6 {
 }
 h1 {
   font-size: 96px;
+  color: var(--branding-color);
 }
 h2 {
   font-size: 64px;
@@ -38,7 +39,6 @@ p {
 }
 .hero p {
   font-size: 36px;
-  font-weight: bold;
   margin: 0;
 }
 .hero h2 {
@@ -67,6 +67,11 @@ p {
 .project-description {
   padding: 120px 60px;
 }
+
+.photo {
+  border-radius: 30px;
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 44px;
