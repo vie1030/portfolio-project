@@ -23,6 +23,9 @@ h1 {
 h2 {
   font-size: 64px;
 }
+h4 {
+  font-size: 48px;
+}
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
@@ -101,6 +104,39 @@ p {
 .logo-small {
   max-height: 40px;
 }
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background: rgb(184, 176, 176);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
 nav {
   padding: 20px;
 }
@@ -135,6 +171,7 @@ nav a:hover {
   h2 {
     font-size: 33px;
   }
+
   .hero {
     padding: 80px 20px;
   }
