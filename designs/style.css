@@ -36,7 +36,7 @@ p {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
   letter-spacing: 2px;
 }
 .hero p {
@@ -76,7 +76,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 90px 20px;
 }
 .content-container h1 {
   font-size: 64px;
@@ -165,15 +165,20 @@ nav a:hover {
 
 @media (max-width: 800px) {
   h1 {
-    font-size: 44px;
+    font-size: 38px;
     line-height: 1.5;
   }
   h2 {
     font-size: 33px;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
 
   .hero {
     padding: 80px 20px;
+  }
+  .hero p {
+    font-size: 22px;
   }
   .project-description {
     padding: 0;
@@ -182,6 +187,9 @@ nav a:hover {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+  .content-container h1 {
+    font-size: 45px;
   }
   nav a {
     font-size: 12px;
